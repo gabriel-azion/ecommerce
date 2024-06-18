@@ -1,0 +1,86 @@
+[34mnext-commerce:build[0m: cache hit, replaying output [2m602d5fa71a30b461[0m
+[34mnext-commerce:build: [0m
+[34mnext-commerce:build: [0m> next-commerce@0.0.1 build /Users/gabriel.franca/Desktop/vercel-ecommerce/vercel-commerce/site
+[34mnext-commerce:build: [0m> next build
+[34mnext-commerce:build: [0m
+[34mnext-commerce:build: [0mnext.config.js {
+[34mnext-commerce:build: [0m  "commerce": {
+[34mnext-commerce:build: [0m    "provider": "local",
+[34mnext-commerce:build: [0m    "features": {
+[34mnext-commerce:build: [0m      "cart": false,
+[34mnext-commerce:build: [0m      "search": false,
+[34mnext-commerce:build: [0m      "wishlist": false,
+[34mnext-commerce:build: [0m      "customerAuth": false,
+[34mnext-commerce:build: [0m      "customCheckout": false
+[34mnext-commerce:build: [0m    }
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  "i18n": {
+[34mnext-commerce:build: [0m    "locales": [
+[34mnext-commerce:build: [0m      "en-US",
+[34mnext-commerce:build: [0m      "es",
+[34mnext-commerce:build: [0m      "fr"
+[34mnext-commerce:build: [0m    ],
+[34mnext-commerce:build: [0m    "defaultLocale": "en-US"
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  "images": {
+[34mnext-commerce:build: [0m    "domains": [
+[34mnext-commerce:build: [0m      "localhost"
+[34mnext-commerce:build: [0m    ]
+[34mnext-commerce:build: [0m  },
+[34mnext-commerce:build: [0m  "env": {}
+[34mnext-commerce:build: [0m}
+[34mnext-commerce:build: [0m ⚠ Invalid next.config.js options detected: 
+[34mnext-commerce:build: [0m ⚠     Unrecognized key(s) in object: 'commerce'
+[34mnext-commerce:build: [0m ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+[34mnext-commerce:build: [0m   Linting and checking validity of types ...
+[34mnext-commerce:build: [0m   Creating an optimized production build ...
+[34mnext-commerce:build: [0m ⚠ You are using an experimental edge runtime, the API might change.
+[34mnext-commerce:build: [0mBrowserslist: caniuse-lite is outdated. Please run:
+[34mnext-commerce:build: [0m  npx update-browserslist-db@latest
+[34mnext-commerce:build: [0m  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[34mnext-commerce:build: [0m ✓ Compiled successfully
+[34mnext-commerce:build: [0m   Collecting page data ...
+[34mnext-commerce:build: [0m"getStaticProps" is not yet supported fully with "experimental-edge", detected on /search
+[34mnext-commerce:build: [0m"getStaticProps" is not yet supported fully with "experimental-edge", detected on /[...pages]
+[34mnext-commerce:build: [0m"getStaticProps" is not yet supported fully with "experimental-edge", detected on /product/[slug]
+[34mnext-commerce:build: [0m"getStaticProps" is not yet supported fully with "experimental-edge", detected on /
+[34mnext-commerce:build: [0m"getStaticProps" is not yet supported fully with "experimental-edge", detected on /search/[category]
+[34mnext-commerce:build: [0m"getStaticProps" is not yet supported fully with "experimental-edge", detected on /search/designers/[name]
+[34mnext-commerce:build: [0m"getStaticProps" is not yet supported fully with "experimental-edge", detected on /search/designers/[name]/[category]
+[34mnext-commerce:build: [0m   Generating static pages (0/20) ...
+[34mnext-commerce:build: [0m   Generating static pages (5/20) 
+[34mnext-commerce:build: [0m   Generating static pages (10/20) 
+[34mnext-commerce:build: [0m   Generating static pages (15/20) 
+[34mnext-commerce:build: [0m ✓ Generating static pages (20/20) 
+[34mnext-commerce:build: [0m   Finalizing page optimization ...
+[34mnext-commerce:build: [0m   Collecting build traces ...
+[34mnext-commerce:build: [0m
+[34mnext-commerce:build: [0mRoute (pages)                              Size     First Load JS
+[34mnext-commerce:build: [0m┌ ℇ /                                      4.42 kB         145 kB
+[34mnext-commerce:build: [0m├   └ css/3032773d659c7f3b.css             2.11 kB
+[34mnext-commerce:build: [0m├   /_app                                  0 B            85.6 kB
+[34mnext-commerce:build: [0m├ ℇ /[...pages]                            475 B           141 kB
+[34mnext-commerce:build: [0m├ ○ /404                                   181 B          85.7 kB
+[34mnext-commerce:build: [0m├ ℇ /api/commerce/[[...commerce]]          0 B            85.6 kB
+[34mnext-commerce:build: [0m├ ● /cart                                  1.58 kB         142 kB
+[34mnext-commerce:build: [0m├ ● /orders                                597 B           141 kB
+[34mnext-commerce:build: [0m├ ℇ /product/[slug]                        30.3 kB         171 kB
+[34mnext-commerce:build: [0m├   └ css/ba5da084d401cabd.css             3 kB
+[34mnext-commerce:build: [0m├ ● /profile                               543 B           141 kB
+[34mnext-commerce:build: [0m├ ℇ /search                                282 B           145 kB
+[34mnext-commerce:build: [0m├ ℇ /search/[category]                     290 B           145 kB
+[34mnext-commerce:build: [0m├ ℇ /search/designers/[name]               293 B           145 kB
+[34mnext-commerce:build: [0m├ ℇ /search/designers/[name]/[category]    300 B           145 kB
+[34mnext-commerce:build: [0m└ ● /wishlist                              2.41 kB         143 kB
+[34mnext-commerce:build: [0m    └ css/6f2e67133c2cb26f.css             835 B
+[34mnext-commerce:build: [0m+ First Load JS shared by all              90.9 kB
+[34mnext-commerce:build: [0m  ├ chunks/framework-73ec73363ad00365.js   45.3 kB
+[34mnext-commerce:build: [0m  ├ chunks/main-becec9fa63590ac8.js        33.5 kB
+[34mnext-commerce:build: [0m  ├ chunks/pages/_app-e4168bf5f690fc1e.js  4.37 kB
+[34mnext-commerce:build: [0m  ├ chunks/webpack-1df0d491f9427e25.js     2.37 kB
+[34mnext-commerce:build: [0m  └ css/cd8f3461ff0262c9.css               5.33 kB
+[34mnext-commerce:build: [0m
+[34mnext-commerce:build: [0mℇ  (Streaming)  server-side renders with streaming (uses React 18 SSR streaming or Server Components)
+[34mnext-commerce:build: [0m○  (Static)     automatically rendered as static HTML (uses no initial props)
+[34mnext-commerce:build: [0m●  (SSG)        automatically generated as static HTML + JSON (uses getStaticProps)
+[34mnext-commerce:build: [0m
